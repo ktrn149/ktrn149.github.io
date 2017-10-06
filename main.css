@@ -1,68 +1,21 @@
+
+
+/*centers the text and gives the website some color and center the elements*/
 body {
-	margin: 0;
+	text-align: center;
+	background-color: #f2f237;
+}
+
+/*provides border to div element*/
+.main {
+	border-width: 8px; 
+	border-color: #b672f9;
+	border-style: solid;
+}
+
+/* returns the input text in a large size than before*/
+#textReveal {
 	font-family: sans-serif;
-	background: #b7dbe4;
+	font-size: 40pt;
 }
-header {
-	text-align: center;
-	width: 100%;
-	background: #b7dbe4;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	position: fixed;
-}
-section {
-	/*margin-top: -20px;*/
-	padding-left: 60px;
-	padding-right: 60px;
-	/*padding-bottom: 15px;*/
-}
-footer {
-	text-align: center;
-	padding-bottom: 15px;
-}
-.main_img {
-	display: block;
-	height: 300px;
-	width: 400px;
-	margin-left: auto;
-	margin-right: auto;
-}
-.about_img {
-	display: block;
-	height: 300px;
-	width: 400px;
-	margin-left: auto;
-	margin-right: auto;
-}
-.bottom_img {
-	display: block;
-	height: 300px;
-	width: 450px;
-	margin-left: auto;
-	margin-right: auto;
-}
-#images {
-	white-space: nowrap;
-}
-.centered_row {
-	display: inline-block;
-	height: 21%;
-	width: 32%;
-}
-.btn {
-  border-radius: 5px;
-  display: inline-block;
-  margin: 0;
- }
- .btn_alt {
-  border: 1px solid #dfe2e5;
-  padding: 10px 30px;
-}
-#contact {
-	text-align: center;
-}
-.contact {
-	width: 45px;
-	height: 35px;
-}
+

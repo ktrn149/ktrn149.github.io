@@ -1,0 +1,38 @@
+<!--
+Input / Output Website
+Copyright Steve Snyder
+Created on October 6, 2017
+Busan, South Korea
+
+This simple program was created to solve a practice problem from Sam Roberson.
+The user inputs text into the textbox, and when the user clicks the submit button, the JS function returns the input back onto the webpage.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="main.css"> <!--links CSS file to HTML file-->
+    <meta charset="utf-8">
+    <title>Welcome to the Input / Output Website</title> <!--introduces website to user-->
+    	<script language="Javascript"> function inputPrint() { /* function that prints #userInput to #textReveal*/
+    		document.getElementById('textReveal').innerHTML = document.getElementById("userInput").value; 
+    	}
+    </script>
+</head>
+
+<body>
+	<div class="main"> 
+		<h1>Welcome to the Input / Output Website!</h1> <!--introduces website to user-->
+		<h3><i>...for all of your inputting and outputting needs!</i></h3> <!--just a cute blurb :D-->
+		<h3>Enter whatever you want into the textbox below, press the "Submit" button, and watch it magically appear in a larger size below!</h3> <!--gives instructions on how to use the website-->
+		<form>
+			<input type="text" placeholder="Enter your text here!" name="message" id="userInput"> <!--the textbox where the user should input the text they want printed on the webpage-->
+		</form>
+		<input type="submit" onclick="inputPrint();"><br/> <!--submit input-->
+		<h3>You typed: </h3> <!--prefaces what the user typed in the text box-->
+		<p><span id='textReveal'></span></p> <!--print out of what the user typed-->
+		<b/>
+		<h3>Thank you for participating!  Hit the refresh button on your browser to try again.</h3><!--Thanks user for participating and invites user to try again-->
+	</div>
+</body>
+</html>
