@@ -1,87 +1,142 @@
+<!--New Personal Website
+A project of Website MANIA
+Started December 9, 2017
+By Steve Snyder
+Busan, South Korea
+-->
+
+
+
 <!DOCTYPE html>
-
+<html>
 <head>
-    <link rel="stylesheet" href="main.css">
-    <meta charset="utf-8">
-    <title>Steve Snyder</title>
+	<title>Steve Snyder</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
-
 <body>
+	<header>
+		<nav class="nav">
+			<ul>
+				<a href="index.html"><li>Home</li></a>
+				<a href="about.html"><li>About</li></a>
+				<a href="pictures.html"><li>Pictures</li></a>
+				<!--<a href="blog.html"><li>Blog</li></a>
+				<a href="korean.html"><li>한국어 (Korean)</li></a>
+				<a href="contact.html"><li>Contact</li></a>-->
+			</ul>
+		</nav>	
 
-	<header class="nav">
-		<h1>Steve Snyder</h1>
-		<nav>
-		<!--<a href="index.html">Home</a>-->
-			<a href="about.html">About</a>
-			<!--<a href="pictures.html">Pictures</a>
-			<a href="korean.html">한국어</a>
-			<a href="blog.html">Blog</a>
-			<a href="#contact">Contact</a>
-			<a href="portfolio">Portfolio</a>-->
-		</nav>
 	</header>
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-
-	<img id="about" class="main_img" src="about_main1.jpg">
-	<section>
-		<h4>Hello!</h4>
-		<p>Welcome to my website!  My name is Steve, and I'm an English teacher in Busan, South Korea.  I am dabbling in computer programming and web development.  My interests include movies, traveling and studying Korean.  <a href="about.html">More about me...</a></p>
-	</section>
-
-	<section id="pictures">
-		<h4>Pictures</h4>
-		<p>One thing that I love to do is to take pictures.  I'm not a photographer...just a man with a smartphone and some fingers.  Here are a couple of pictures of places that I've traveled to:</p>
-		<div id="images">
-			<img class="centered_row" src="pictures/frankfurt.jpg" />
-			<img class="centered_row" src="pictures/munichsquare.jpg" />
-			<img class="centered_row" src="pictures/toweroflondon.JPG" />
-		</div>
-		<div id="images">
-			<img class="centered_row" src="pictures/gamcheonvillage.jpg" />
-			<img class="centered_row" src="pictures/shanghaipudong.jpg" />
-			<img class="centered_row" src="pictures/taiwanpalacemuseum.jpg" />
-		</div>
-		</div>
-		<p>Bonus points if you can guess which countries these shots were taken in!  Check out more pictures <a href="pictures.html">here...</a></p>
-	</section>
-
-	<section id="korean">
-		<h4>한국어 (Korean)</h4>
-		<p>안녕하세요?  저는 스티브입니다!  6 년 전부터 한국어 배우는 것을 시작했어요.  계속 배우고 연습하고 싶어요!</p>
-		<p>I have been studying Korean for about 6 years now, starting from when I went to Korea in 2011.  I want to continue to study, practice and hopefully get better!  </p><!--<a href="korean.html">여기에 크리크 / Click here for more</a>-->
-	</section>
-
-	<!--<section id="blog">
-		<h4>Blog</h4>
-		<ul>
-		<li><a href="blogs/blog1_starkillerbase.html">Best Use of Starkiller Base</a></li>
-		<li><a href="blogs/blog2_mypolitics.html">The Life-Changing Virtues of Financial Independence</a></li>
-		<li><a href="blogs/blog3_joyofkorean">Foreign Language Learning: Trials and Rewards</a></li>
-		</ul>
-		<p>Let's go down the <a href="blog.html">rabbit hole...</a></p>
-	</section>
-
-	<section id="portfolio">
-		<h4>Portfolio</h4>
-		<p>Crickets....tumbleweeds...</p>
-		<p>Check back again soon! ~</p>
-	</section>-->
+	
+	<div class="intro">
 		
-	<br />
-	<section id="contact">
+		<img class="main-img" src="profilepic.jpg" alt="My picture">
+		<section class="intro-bar">
+		<br>
+		<h1>Steve Snyder</h1>
+		<br>		
+		<br>
+		</section>
+
+	</div>
+
+	<div class="resume">
+		
+		<section>
+			<h2>Welcome to my personal website!</h2>
+			<br>
+			<h3 class="align-left">I'm an English teacher in Busan, South Korea.  I keep busy with studying web develoment, learning Korean, and trying all the craft beer I can find.   You can learn more about me <a class="no-underline" href="about.html">here.</a></h3>
+		</section>
+		<br>
+		<br>
+		<br>
+	</div>
+	<div class="resume">
+		<section>
+			<h2>Travel Pictures</h2>
+			<br>
+			<h3 class="align-left">Here are some pictures of places I have traveled to.  Can you guess where they are?</h3>
+		</section>
+	</div>
+
+	<div class="portfolio">
+		<div class="showcase">
+			<div class="int-showcase"><figure>
+				<img src="munichsquare.jpg" alt="Munich, Germany" width="275" height="225"><figcaption>Munich, Germany</figcaption></figure>
+			</div>
+		</div>
+		<div class="showcase">
+			<div class="int-showcase"><figure>
+				<img src="tokyo.jpg" alt="Tokyo" width="275" height="225"><figcaption>Tokyo</figcaption></figure>
+			</div>
+		</div>
+		<div class="showcase">
+			<div class="int-showcase"><figure>
+				<img src="jejugovernment.jpg" alt="Jeju, South Korea" width="275" height="225"><figcaption>Jeju, South Korea</figcaption></figure>
+			</div>
+		</div>
+		<div class="showcase">
+			<div class="int-showcase"><figure>
+				<img src="sanfran.jpg" alt="San Francisco" width="275" height="225"><figcaption>San Francisco</figcaption></figure>
+			</div>
+		</div>
+		<div class="showcase">
+			<div class="int-showcase"><figure>
+				<img src="alaska.jpg" alt="Alaska" width="275" height="225"><figcaption>Alaska</figcaption></figure>
+			</div>
+		</div>
+		<div class="showcase">
+			<div class="int-showcase"><figure>
+				<img src="empirestate.jpg" alt="New York City" width="275" height="225"><figcaption>New York City</figcaption></figure>
+			</div>
+		</div>
+		<div class="showcase">
+			<div class="int-showcase"><figure>
+				<img src="hearstcastle.jpg" alt="Hearst Castle, California" width="275" height="225"><figcaption>Hearst Castle, California</figcaption></figure>
+			</div>
+		</div>
+		<div class="showcase">
+			<div class="int-showcase"><figure>
+				<img src="frankfurt.jpg" alt="Frankfurt, Germany" width="275" height="225"><figcaption>Frankfurt, Germany</figcaption></figure>
+			</div>
+		</div>
+	</div>
+
+	<div class="resume">
+		<section>
+			<h3 class="align-left">Click <a class="no-underline" href="pictures.html">here</a> to see more pictures!</h3>
+		</section>
+	</div>
+	<br>
+	<br>
+<div class="resume">
+		<section>
+			<h2>Studying Korean</h2>
+			<br>
+			<h3 class="align-left">I've lived in Korea for about three years, and I enjoy learning about the language and culture.  The food is great too! Here is my self-introduction in Korean:
+			<br>
+			<br>
+			안녕하세요!  저는 스티브입니다.  한국에 온 지 3년 전 됐어요.  한국어랑 한국 문화 배우기 좋아요.</h3>
+		</section>
+		<br>
+		<br>
+	</div>
+	
+	<div class="contact" id="contact">
+
+		<h2>Contact</h2>
+		<ul>
+			<a href="mailto:ktrn149@gmail.com?" target="_top"><li>email</li></a>
+			<a href="https://github.com/ktrn149" target="_blank"><li>github</li></a>
+			<a href="https://www.linkedin.com/in/steversnyder/" target="_blank"><li>linkedin</li></a>
+		</ul>
+<!--<section id="contact">
 		<a href="https://www.linkedin.com/in/steversnyder/" target="_blank"><img class="contact" src="pictures/In-2C-128px-TM.jpg" /></a>
 		<a href="https://github.com/ktrn149" target="_blank"><img class="contact" src="pictures/github.jpg" /></a>
-		<a href="mailto:ktrn149@gmail.com?" target="_top"><img class="contact" src="pictures/email-icon-vector-email_4096_black.png" /></a>
-	</section>
-	<footer>
-		<small>&copy; Steve Snyder</small>
-	</footer>
-</body>
+		<a href="mailto:ktrn149@gmail.com?" target="_top"><img class="contact" src="pictures/email-icon-vector-email_4096_black.png" /></a>-->
+	</div>
 
+
+</body>
 </html>
