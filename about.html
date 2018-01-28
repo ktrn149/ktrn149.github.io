@@ -1,88 +1,117 @@
 <!DOCTYPE html>
-
+<html>
 <head>
-    <link rel="stylesheet" href="main.css">
-    <meta charset="utf-8">
-    <title>Steve Snyder</title>
+	<title>Steve Snyder</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
-
 <body>
+	<header>
+		<nav class="nav">
+			<ul>
+				<a href="index.html"><li>Home</li></a>
+				<a href="about.html"><li>About</li></a>
+				<a href="pictures.html"><li>Pictures</li></a>
+				<!--<a href="blog.html"><li>Blog</li></a>
+				<a href="korean.html"><li>한국어 (Korean)</li></a>
+				<a href="contact.html"><li>Contact</li></a>-->
+			</ul>
+		</nav>	
 
-	<header class="nav">
-		<h1>Steve Snyder</h1>
-		<nav>
-			<a href="index.html">Home</a>
-			<!--<a href="pictures.html">Pictures</a>
-			<a href="korean.html">한국어</a>
-			<a href="blog.html">Blog</a>
-			<a href="portfolio.html">Portfolio</a>-->
-		</nav>
 	</header>
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
+	
+	<div class="intro">
+		
+		<img class="main-img" src="withcomputer.jpg" alt="Me with my computer">
+		<section class="intro-bar">
+		<br>
+		<h1>About<h1>
+		<br>		
+		<br>
+		</section>
 
-	<img id="about" class="about_img" src="pictures/withcomputer.jpg">
-	<section>
-		<h4>The Basics</h4>
-			<p>Born in 1986</p>
-			<p>Spend childhood and young adulthood in Southern California</p>
-			<p>Graduated from Azusa Pacific University with a Bachelors of Science in 2009</p>
-			<p>Moved to South Korea to teach English in 2011</p>
-			<p>Moved to China to teach English in 2014</p>
-			<p>Starting studying web development from 2015</p>
-			<p>Moved back to South Korea to teach English in 2017</p>
-			<p><i>Future Plans: Stay in South Korea for 2-3 more years, study computer programming on my own, possibly go to school again</i></p>
-	</section>
-	<section>
-		<h4>New Start, New Career</h4>
-			</p>So why web development?  First of all, it's going to be in demand for a while.  Everyone and their kid brother has a computer, and professionals are needed to either create websites, software, or applications that people can use on a multitude of devices.  In addition, it's a career in which one can potentially enter without a formal education, and have many career and work location options.  Even though I've used computers since I was a kid, this is the first time I've taken seriously as a profession.  I know that it's going to be a long and challenging journey, but I'm excited to learn and gradually make progress.</p>	
-	</section>
-	<section>
-		<h4>Korea: Going Back to my Second Home</h4>
-			<p>I have a strong affection for the country and people of Korea.  After living there for three years, I've become a big fan of the country.  The history, culture, cuisine, langauge of Korea has been a never-ending source of interest for me.  To this day, there's a lot I still haven't done or seen in South Korea.</p>
-			<p>My goals for living in Korea:</p>
-			<p>1. Contiune to learn about and experence Korea, and educate students in learning English</p>
-			<p>2. Save a sizeable portion of my income to put towards future endevors in web development.</p>
-			<p>3. Use the next 2-3 years as a launching platform to enter the tech industry.  I recognize that it will take time to study and create projects, so I want to use my time abroad effectively</p>
-	</section>
-	<section id="pictures">
-		<h4>My Interests</h4>
-		<p>Besides what I already mentioned, I like trying new food, exercising (fact checker still working on that one), visiting new places, being a lazy bum on Sunday mornings, and learning about early retirement (the website that got it all started is <a href="https://www.mrmoneymustache.com/" target="_blank">Mr. Money Mustache</a>.  Also, I'm a bit of a sports nut.</p>
-		<h4>Favorite Soccer Teams</h4>
-		<div id="images">
-			<img class="centered_row" src="pictures/forgodsake.jpg" /> 
-			<img class="centered_row" src="pictures/lazio.png" /> 
-			<img class="centered_row" src="pictures/dortmund.png" />
+	</div>
+
+	<div class="resume">
+		
+		<section>
+			<h2>Life Timeline</h2>
+			<br>
+			<h3 class="align-left">
+				<ul>
+					<li>1986: Born and raised in Southern California</li>
+					<li>2009: Graduate from Azusa Pacific University</li>
+					<li>2011: Move to Korea to teach English, live there for 3 years, start studying Korean</li>
+					<li>2014: Move to China to teach English, live there for 2 years</li>
+					<li>2015: Start studying web development</li>
+					<li>2017: Move back to Korea to teach English, renew studying Korean and web development</li>
+					<li></li>
+				</ul>
+			</h3>
+		</section>
+		<br>
+		<br>
+		<section>
+			<h2>My Hobbies</h2>
+			<br>
+			<h3 class="align-left">In addition to studying Korean and web development, I enjoy reading some good books, traveling, cooking at home, trying new foods, and relaxing on a slow Sunday.  In terms of sports, I used to be a big soccer fan, but my tastes have evolved, as you can see below.</h3>
+		</section>
+	<br>
+	<br>
+		<section>
+			<h2>Favorite Sports Teams</h2><br><h3>In alphabetical order.  Not the most successful bunch, but they're my boys!</h3>
+		</section>
+	</div>
+
+	<div class="portfolio">
+		<div class="showcase">
+			<div class="int-showcase">
+				<img src="canadiens.svg" alt="Montreal Canadiens" width="250" height="180">
+			</div>
 		</div>
-		<h4>Favorite Hockey Team</h4>
-		<div id="images">
-			<img class="centered_row" src="pictures/ducks.png" />
+		<div class="showcase">
+			<div class="int-showcase">
+				<img src="anaducks.png" alt="Anaheim Ducks" width="250" height="180">
+			</div>
 		</div>
-		<h4>Favorite Baseball Teams</h4>
-		<div id="images">
-			<img class="centered_row" src="pictures/padres.png" /> 
-			<img class="centered_row" src="pictures/angels.png" />
-			<img class="centered_row" src="pictures/busanlotte.png" />
+		<div class="showcase">
+			<div class="int-showcase">
+				<img src="padres.jpg" alt="San Diego Padres" width="250" height="180">
+			</div>
 		</div>
-		<h4>Favorite Football Team</h4>
-		<div id="images">
-			<img class="centered_row" src="pictures/seahawks.jpg" /> 
+		<div class="showcase">
+			<div class="int-showcase">
+				<img src="hawks.png" alt="Seattle Seahawks" width="250" height="180">
+			</div>
 		</div>
-	</section>
-	<br />
-	<section id="contact">
-		<a href="https://www.linkedin.com/in/steversnyder/" target="_blank"><img class="contact" src="pictures/In-2C-128px-TM.jpg" /></a>
-		<a href="https://github.com/ktrn149" target="_blank"><img class="contact" src="pictures/github.jpg" /></a>
-		<a href="mailto:ktrn149@gmail.com?" target="_top"><img class="contact" src="pictures/email-icon-vector-email_4096_black.png" /></a>
-	</section>
-	<footer>
-		<small>&copy; Steve Snyder</small>
-	</footer>
+	</div>
+
+<div class="resume">
+		<section>
+			<h2>Goals and Dreams</h2>
+			<br>
+			<h3 class="align-left">
+				<ul>
+					<li>- Watch an MLB game in every stadium in one summer</li>
+					<li>- Become fluent in Korean</li>
+					<li>- Become professionally proficient in web development</li>
+					<li>- Learn how to make <a class="no-underline" href="https://en.wikipedia.org/wiki/Makgeolli" target="_blank">makgoli</a></li>
+				</ul>
+			</h3>
+		</section>
+		<br>
+		<br>
+	</div>
+	
+	<div class="contact" id="contact">
+
+		<h2>Contact</h2>
+		<ul>
+			<a href="mailto:ktrn149@gmail.com?" target="_top"><li>email</li></a>
+			<a href="https://github.com/ktrn149" target="_blank"><li>github</li></a>
+			<a href="https://www.linkedin.com/in/steversnyder/" target="_blank"><li>linkedin</li></a>
+		</ul>
+	</div>
+
 </body>
-
 </html>
